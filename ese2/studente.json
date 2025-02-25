@@ -1,0 +1,22 @@
+{
+    "studente": {
+        "id":"masFD235rec",
+        "cf": "LVRNMO90B04H501Y",
+        "nome": "Mario",
+        "cognome": "Rossi",
+        "dataNascita": "04-02-1993",
+        "sesso": "M",
+        "dataIscrizione" :"04-02-2023", 
+        "corso": "Scienze Applicate",
+        "email":"fringistulfo@gmail.com",
+        "telefono":"1441234567",
+        "indirizzo": {
+        "via": "Via delle zoccolette",
+        "numerocivico":5,
+        "città": "Milano"
+      }
+
+
+    }
+
+}

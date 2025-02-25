@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let nome = "Mario";
+        let stringa = `Ciao ${nome} `;
+        console.log(stringa);
+
+
+        let variabile = 100;
+
+        let test= () => {
+            let miotag = document.getElementById("cambio");
+            miotag.innerHTML = "Valore finale: " + variabile;
+
+
+        }
+
+        let test2= () =>{
+            variabile = 70
+            let miotag = document.getElementById("cambia2");
+            miotag.innerHTML = "Valore finale: " + variabile;
+
+        }
+
+
+    </script>
+
+
+
+
+
+
+
+</head>
+
+
+
+<body>
+    <h1>Primo Esercizio Javascript</h1>
+    <p id="cambio"></p>
+    <p id="cambia2"></p>
+
+    <script>
+
+        test();
+        
+        test2();
+
+    </script>
+</body>
+</html>

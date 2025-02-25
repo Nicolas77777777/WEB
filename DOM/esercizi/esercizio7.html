@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio7</title>
+   
+
+</head>
+<body>
+    <table id="cavolo">
+    
+        
+    </table>
+    
+    <button onclick="updateRow()">aggiungiRigaTabella</button>
+
+    <script> 
+       
+        function updateRow() {
+            // document.element
+            
+            var tabella = document.getElementById("cavolo");
+            var nuovaRiga = tabella.insertRow(0); // Crea la nuova riga
+            var cella1 = nuovaRiga.insertCell(0); 
+            var cella2 = nuovaRiga.insertCell(1); 
+            var cella3 = nuovaRiga.insertCell(2); 
+
+            cella1.innerHTML = "Nuovo Nome"; 
+            cella2.innerHTML = "0";  
+            cella3.innerHTML = "Nuova Città"; 
+
+   
+        }
+
+    
+    </script> 

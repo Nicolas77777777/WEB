@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio10</title>
+</head>
+<body>
+
+    <div>
+        <p id="para" onmouseover="cambiaPar()" onmouseout="ripristina()">Sed ut perspiciatis unde omnis iste natus error sit
+         voluptatem accusantium doloremque laudantium, 
+         totam rem aperiam, eaque ipsa quae ab illo 
+         inventore veritatis et quasi architecto beatae vitae 
+         dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+         voluptas sit aspernatur aut odit aut fugit, sed quia
+         consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+         eque porro quisquam est, qui dolorem 
+         ipsum quia dolor sit amet, consectetur.
+        </p>
+    </div>
+
+    <script>
+        function cambiaPar() {
+            var parag = document.getElementById("para");
+            parag.innerText = "Hai passato il mouse sul paragrafo!";
+            parag.style.backgroundColor = "lightblue";
+            parag.style.border = "2px solid blue";
+            parag.style.borderRadius = "5px";
+            parag.style.padding = "10px";
+        }
+
+        function ripristina() {
+            var parag = document.getElementById("para");
+            parag.innerText = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Eque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.";
+            parag.style.backgroundColor = "";
+            parag.style.border = ""; 
+            parag.style.borderRadius = ""; 
+            parag.style.padding = ""; 
+        }
+    </script>
+
+</body>
+</html>

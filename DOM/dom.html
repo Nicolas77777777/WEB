@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /*  IL TAG CSS PUÒ ESSERE MESSO SOLO NELL'HEAD  */
+        .miostile{
+
+            color: aquamarine;
+        }
+
+
+
+    </style>
+   
+</head>
+<body>
+    <h1 class="miostile" id="cambio">Prima pagina html con DOM</h1>
+    <div class="miostile">import del DOM ? no</div>
+    <div class="miostile">Per utilizzare abbiamo bisogno di un lingiaggio di programmazine </div>
+    <h2> document</h2>
+    <h3> document ci sono dei metodi..... ne vediamo uno getElementById</h3>
+    <img id="miaimg"src="https://it.wikipedia.org/wiki/Natiche#/media/File:Image-Ass_2.jpg">
+    <script>
+
+        var x = 10; // js non esistono i tipi 
+        // PUO ESSERE MESSO NELL'HEAD E NEL BODY
+        // tagscript abilita la scrittura javascript
+
+        // QUI POSSO USARE IL DOM
+
+        document.title="la mia prima pagina PrcoDUE";
+        var miotag= document.getElementById("miaimg");
+
+        // ATRIBUTO
+        miotag.setAttribute("width","1000px");
+
+        // evento
+        miotag.onclick=()=> {alert("ciao")};
+
+        //style
+        miotag.style.border ="solid 5px red"
+
+        //funzioni javascript
+
+        function test(){
+
+        }
+
+
+        // 
+    </script>
+
+    
+</body>
+</html>
