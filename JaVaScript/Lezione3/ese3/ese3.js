@@ -70,8 +70,8 @@ let b = 1;
 let c = ++a;
 let d = b++;
 
-console.log(c); // 2
-console.log(d); // 1
+console.log(c); // 2//s
+console.log(d); // 1S
 
 //ESE 6
 
