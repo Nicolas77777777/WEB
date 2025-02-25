@@ -31,13 +31,13 @@ document.getElementById("anniRImanenti").innerHTML=("per arrivare a canto anni, 
 //ESE 3
 
 function convertitoreSecondi(){
-    let totalisecond= parseInt(document.getElementById('secondi').value);
-    let ore = Math.floor(totalisecond/ 3600);
-    let remainingSeconds = totalisecond% 3600;
-    let minutes = Math.floor(remainingSeconds / 60);
-    let seconds = remainingSeconds % 60;
+    let totalisecondi= parseInt(document.getElementById('secondi').value);
+    let ore = Math.floor(totalisecondi/ 3600);
+    let secondiRimanenti = totalisecondi% 3600;
+    let minuti = Math.floor(secondiRimanenti / 60);
+    let secondi = secondiRimanenti % 60;
     
-    document.getElementById('result').innerText = hours + " ore, " + minutes + " minuti e " + seconds + " secondi";
+    document.getElementById('result').innerText = hours + " ore, " + minuti + " minuti e " + secondi + " secondi";
 }
 
 
