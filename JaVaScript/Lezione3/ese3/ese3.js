@@ -38,8 +38,8 @@ function convertitoreSecondi() {
 
 
 
-    let ore = Math.floor(secondi / 3600);
-    let minuti = Math.floor((secondi % 3600) / 60);
+    let ore = Math.floor(secondi / 3600); // parseInt()
+    let minuti = Math.floor((secondi % 3600) / 60); // parseInt 
     let restantiSecondi = secondi % 60;
 
     document.getElementById("risultato").innerText =
@@ -63,15 +63,15 @@ let ris = numero1 + numero2
 document.getElementById("ri").innerText = "Risultato: " + ris;
 }
 
-// ESE 5
+// ESE 5 
 
 let a = 1;
 let b = 1;
 let c = ++a;
 let d = b++;
 
-console.log(c); // 2//s
-console.log(d); // 1S
+console.log(c); // 2
+console.log(d); // 1
 
 //ESE 6
 
