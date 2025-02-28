@@ -1,37 +1,36 @@
 // ESE1 
 
 // creazione contenitore Contenitore- righa- colonna
-let contenitore= document.createElement("div");
-contenitore.setAttribute("class","container")
-let righa11= document.createElement("div");
-let righa12= document.createElement("div");
-let righa13= document.createElement("div");
+let contenitore = document.createElement("div");
+contenitore.setAttribute("class", "container");
 
-let righa21= document.createElement("div");
-let righa22= document.createElement("div");
-let righa23= document.createElement("div");
+let righa11 = document.createElement("div");
+let righa12 = document.createElement("div");
+let righa13 = document.createElement("div");
 
+let righa21 = document.createElement("div");
+let righa22 = document.createElement("div");
+let righa23 = document.createElement("div");
 
-righa11.setAttribute("class","row");
-righa12.setAttribute("class","row");
-righa13.setAttribute("class","row");
+righa11.setAttribute("class", "row");
+righa12.setAttribute("class", "row");
+righa13.setAttribute("class", "row");
 
-righa21.setAttribute("class","row");
-righa22.setAttribute("class","row");
-righa23.setAttribute("class","row");
+righa21.setAttribute("class", "row");
+righa22.setAttribute("class", "row");
+righa23.setAttribute("class", "row");
 
+let colonna1 = document.createElement("div");
+colonna1.setAttribute("class", "col");
 
-let colonna1= document.createElement("div");
-colonna1.setAttribute("class","col");
+let colonna2 = document.createElement("div");
+colonna2.setAttribute("class", "col");
 
 colonna1.appendChild(righa11);
 colonna1.appendChild(righa12);
 colonna1.appendChild(righa13);
 
 contenitore.appendChild(colonna1);
-
-let colonna2= document.createElement("div");
-colonna2.setAttribute("class","col");
 
 colonna2.appendChild(righa21);
 colonna2.appendChild(righa22);
@@ -40,6 +39,7 @@ colonna2.appendChild(righa23);
 contenitore.appendChild(colonna2);
 
 document.body.appendChild(contenitore);
+
 
 
 let box = document.createElement("h1");
