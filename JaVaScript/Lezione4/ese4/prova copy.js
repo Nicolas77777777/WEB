@@ -96,8 +96,51 @@ box4.style.margin = "10px";
 colonna4.appendChild(box4); // inserisco il box alla seconda colonna
 document.getElementById("esercizio4").innerText = "ESERCIZIO 4.4";
 
+let tabellina51 = [ 5, 6, 7, 8, 9, 10,11,12,13,14,15]; 
+let magicNumber51 = 1;
+let risCicloFor51 = "";
+
+for (let i in tabellina5) {
+    risCicloFor5 += ` ${tabellina5[i]} x ${magicNumber5} = ${tabellina5[i] * magicNumber5} ` + "<br>"; 
+}
+
+let box5CicloFor = document.createElement("p");
+box5CicloFor.setAttribute("id", "ese4.3.1");
+box5CicloFor.style.backgroundColor = "red";
+box5CicloFor.style.color = "white";
+box5CicloFor.style.width = "300px";
+box5CicloFor.style.padding = "10px";
+box5CicloFor.style.margin = "10px";
+box5CicloFor.innerHTML = `<strong>Tabellina con ciclo For:</strong><br>` + risCicloFor5;
+box5CicloFor.style.border = "3px solid black";
+
+colonna3.appendChild(box5CicloFor);
+
+// Tabellina con ciclo WHILE
+
+// Tabellina con ciclo WHILE
+let valoreMax51 = 15;
+let contatore51 = 5;
+let risCicloWhile51 = "";
+
+while (contatore5 <= valoreMax5) {
+    risCicloWhile5 += `${contatore5} x ${magicNumber5} = ${contatore5 * magicNumber5} <br>`;
+    contatore5++;
+}
+
+let box5CicloWhile = document.createElement("p");
+box5CicloWhile.setAttribute("id", "ese4.3.2");
+box5CicloWhile.style.backgroundColor = "blue";
+box5CicloWhile.style.color = "white";
+box5CicloWhile.style.width = "300px";
+box5CicloWhile.style.border = "3px solid black";
+box5CicloWhile.style.padding = "10px";
+box5CicloWhile.style.margin = "10px";
+box5CicloWhile.innerHTML = `<strong>Tabellina con ciclo WHILE:</strong><br>` + risCicloWhile51;
+
+colonna3.appendChild(box5CicloWhile);
 // Tabellina con ciclo FOR
-let tabellina = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; 
+/*let tabellina = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; 
 let magicNumber = 4;
 let risCicloFor = "";
 
@@ -137,7 +180,7 @@ box3CicloWhile.style.padding = "10px";
 box3CicloWhile.style.margin = "10px";
 box3CicloWhile.innerHTML = `<strong>Tabellina con ciclo WHILE:</strong><br>` + risCicloWhile;
 
-colonna1.appendChild(box3CicloWhile);
+colonna1.appendChild(box3CicloWhile);*/
 
 // esercizio 4.2
 
