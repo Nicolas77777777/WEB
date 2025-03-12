@@ -10,8 +10,6 @@ const Hooks4InDe = () => {
             let contatoreIncrementato = ++contatore ;
             setContatore(contatoreIncrementato);
 
-
-      
         }
     
 
@@ -22,17 +20,15 @@ const Hooks4InDe = () => {
 
       }
 
-
-
-
-
-
   return (
     <div>
-        <h1>Hooks4InDe</h1>
-        {contatore}
-        <button onClick={ incrementa }>incrementa</button>
-        <button onClick={ decrementa }>incrementa</button>
+      <h1>
+        Hooks4InDe
+      </h1>
+      
+      {contatore}
+      <button onClick={ incrementa }>Incrementa</button>
+      <button onClick={ decrementa }>Decrementa</button>
         
     </div>
   )
