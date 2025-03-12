@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        test()
+        // console.log(compleanno); // undefined
+        
+        // HOISTING : sposta le dichiarazioni di variabili e le funzioni ... in alto (all'inizio dello scope)
+        // scrivo il codice 
+
+        // FASE 1
+        var nome = "Mario";     // string
+        var anni = 30;          // number
+        var diplomato = true;   // boolean
+        var persona = {};       // object
+        var giorni = [];        // array 
+
+        // object e array ... 
+
+        // string number e boolean ... SONO OGGETTI
+
+        var nome = "Anna";
+   
+        function test() {
+            console.log("sono dentro una funzione");
+        }
+
+        // FASE 2 
+        let nominativo = "Mauro";
+        let compleanno = 20;
+
+        console.log(nominativo);
+
+        let test2 = () => {
+            console.log("sono dentro una funzione");
+        }
+    
+        paperino = 10;
+        paperino = 20;
+
+        x = 10;
+        
+        
+        // programmatore ... typeof()
+        console.log( typeof(x) ); // number
+
+        x = "Mario";
+        
+        + 1
+
+        // js 
+
+        let num1 = 10;
+        let num2 = 20;
+
+        num1 = num2;
+
+        // num1 ... 20
+        // num2 ... 20
+
+        let nome = "Anna";
+        // char non esiste
+        let cognome = 'Rossi';
+
+        console.log(nome + cognome);
+        // fase 1
+        var frase1 = nome + " " + cognome + " è bella";
+
+        let frase2 = `${nome} ${cognome} è bella`;
+        // fase 2 ... literal string
+        // accento grave ALT+96
+        
+
+        console.log(frase1);
+        
+        
+    </script>
+</head>
+<body>
+    <h1> Le Variabili </h1>
+    <h2> 1 Non è obbligatorio dichiararle </h2>
+    <h2> 2 Fine istruzione non obbligatoria </h2>
+    <h2> TIPI ESISTONO : string , number , boolean , oggetti , array (oggetti) </h2>
+    <h2> Non posso dichiararli ... ci pensa js ad assegnare il tipo </h2>
+    <h2> tipizzazione debole ... "" </h2>
+    <!-- 
+    JAVA 
+        int anni = 10; primitivo    ... 10       valore
+        Integer anniobj = 10;          ... 12345678 indirizzo di memoria   ... Via del corso 1
+
+        int anni2 = anni; // RAM ??? creato un'altra scatola "anni2" 10
+
+        Integer anni4 = anniobj; // RAM ??? crea scatola "anni4" indirizzo di memoria
+
+        anni2 = 20;
+
+        anni4 = 1000;
+
+        RAM : la memoria temporanea ... CELLE 
+    -->
+    <h2> Javascript : SONO TUTTI OGGETTI </h2>
+    
+
+</body>
+</html>

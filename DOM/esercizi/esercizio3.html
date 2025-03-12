@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio n.2</title>
+</head>
+<body>
+    <h1> Terzo Esercizio</h1>
+
+    <ul id="listNorder">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+    
+
+    <button onclick="aggiiungiElemento()">Aggiungi elemento al body </button>
+    <script>
+
+    function aggiiungiElemento() {
+        // document.element
+        
+        var miotag = document.getElementById("listNorder");
+
+        var liTag = document.createElement("li");
+        liTag.textContent = "questa è la nuova riga";
+        listNorder.appendChild(liTag);
+
+
+        
+
+        // evento
+        miotag.onclick = () => { alert("cambia l'aspetto del paragrafo") };
+
+       
+    
+    }
+</script>
+</body>
+</html>

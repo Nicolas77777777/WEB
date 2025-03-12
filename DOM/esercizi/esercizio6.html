@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio6</title>
+   
+
+</head>
+<body>
+   
+    <img id="miaimg" src="https://previews.123rf.com/images/siamimages/siamimages1702/siamimages170202731/72668468-icona-pi%C3%B9-illustrazione-vettoriale.jpg">
+
+    <button onclick="changeSrc()">cambiaImmagine</button>
+
+    <script> 
+       
+        function changeSrc() {
+            // document.element
+            document.title = "La mia prima pagina";
+            var immaginesrc = document.getElementById("miaimg");
+
+            // attributo
+            immaginesrc.src="https://img-prod.ilfoglio.it/2020/08/18/culo_993x543_1597752601211.jpg"
+
+            // evento
+            immaginesrc.onclick = () => { alert('CambiaImmagine') };
+
+            // style
+        
+        }
+    </script>
+</body>
+</html>

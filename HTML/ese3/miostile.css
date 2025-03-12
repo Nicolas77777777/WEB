@@ -1,0 +1,33 @@
+h1 {
+
+    color: rgb(7, 7, 7);
+    font-size: large;
+
+    text-align: center;
+}
+
+.divcenter {
+    
+    width: 50%;
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.divwhite {
+
+    background-color: white;
+}
+
+
+body {
+    background-color: rgb(193, 228, 193);
+    margin: 0 auto;
+}
+
+.menu {
+
+    background-color: grey;
+    margin: 0 auto; /* Centra orizzontalmente */
+    text-align: center
+}
+

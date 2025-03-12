@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio8</title>
+</head>
+<body>
+    <ul id = "chang">
+        <li id = "elemento">Cacao</li>
+        <li>Bistecca</li>
+        <li>Pecorino</li>
+    </ul>
+
+    <button onclick="test()">Clicca Qui</button>
+</body>
+    <script>
+        function test() {
+            var miotag = document.getElementById("chang");
+            var litag = document.getElementById("elemento");
+            miotag.removeChild(litag);
+
+        }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio9</title>
+</head>
+<body>
+    <ul id = "tab">
+        <li >Cacao</li>
+        <li>Bistecca</li>
+        <li>Pecorino</li>
+    </ul>
+
+    <button onclick="contaElementi()">Clicca Qui</button>
+</body>
+    <script>
+        function contaElementi() {
+            var miotag = document.getElementById("tab");
+            var numeroElementi = miotag.getElementsByTagName("li").length;
+            miotag.style.display= "none"
+            var newH=document.createElement("div");
+            newH.innerHTML ="<h3> gli elementi della lista sono:"+numeroElementi+"</h3>";
+            document.body.appendChild(newH);
+            
+
+        }
+
+    </script>

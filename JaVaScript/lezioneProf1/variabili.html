@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        test()
+        console.log(compleanno); // undefined
+        
+        // HOISTING : sposta le dichiarazioni di variabili e le funzioni ... in alto (all'inizio dello scope)
+        // scrivo il codice 
+
+        // FASE 1
+        var nome = "Mario";
+        var anni = 30;
+        var diplomato = true;
+        var persona = {};
+        var giorni = [];
+
+        var nome = "Anna";
+
+        function test() {
+            console.log("sono dentro una funzione");
+        }
+
+        // FASE 2 
+        let nominativo = "Mauro";
+        let compleanno = 20;
+
+        console.log(nominativo);
+
+        let test2 = () => {
+            console.log("sono dentro una funzione");
+        }
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
