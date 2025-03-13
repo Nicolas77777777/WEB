@@ -1,9 +1,6 @@
 console.log("hi zhs");
 
 
-
-console.log("roscio frocio ");
-
 var express = require('express');
 var path = require('path');
 var app = express();
