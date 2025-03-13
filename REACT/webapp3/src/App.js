@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Esercizio1 from './Esercizio1';
 import EsercizioBis from './EsercizioBis';
+import Esercizio1bisbis from './Esercizio1bisbis';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       
 
       <Esercizio1></Esercizio1>
-      <EsercizioBis></EsercizioBis>
+      {/*<EsercizioBis></EsercizioBis>
+      <Esercizio1bisbis></Esercizio1bisbis>*/}
     
     </div>
   );
