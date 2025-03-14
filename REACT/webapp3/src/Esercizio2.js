@@ -17,6 +17,7 @@ const Esercizio2 = () => {
             <div className="card">
 
                 <div className="card-body">
+                    <h1 className ="card-title"> Esercizio2</h1>
                     <h5 className="card-title">{Prodotto.nome}</h5>
                     <p className="card-text">{Prodotto.descrizione}</p>
                     <p className="card-text"><strong>Prezzo:</strong> ${Prodotto.prezzo.toFixed(2)}</p>
