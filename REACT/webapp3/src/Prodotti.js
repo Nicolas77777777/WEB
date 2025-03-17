@@ -10,8 +10,17 @@ const prodotti= [{
         descrizione : "ipsum gfkjgkfagfgggjlkggfkjagfkjagfkajkg",
         prezzo : 1099
 
+    },
+    {
+        id:3,
+        nome:"n",
+        descrizione : "ipsum gfkjgkfagfgggjlkggfkjagfkjagfkajkg",
+        prezzo : 1099
 
-}];
+    }
+
+
+];
 
 export default prodotti;
 
