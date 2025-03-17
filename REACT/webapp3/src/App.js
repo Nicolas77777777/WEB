@@ -11,6 +11,8 @@ import Esercizio3bis from './Esercizio3bis';
 import Esercizio4_4 from './Esercizio4_4';
 import Esercizio5 from './Esercizio5';
 import Esercizio6 from './Esercizio6';
+import Esercizio9 from './Esercizio9';
+
 
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
       <Esercizio4_4></Esercizio4_4>
       <Esercizio5></Esercizio5>
       <Esercizio6></Esercizio6>
+      <Esercizio9></Esercizio9>
    
     
     </div>
