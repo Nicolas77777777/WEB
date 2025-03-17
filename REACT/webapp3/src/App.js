@@ -8,6 +8,9 @@ import Esercizio2 from './Esercizio2';
 import Esercizio3 from './Esercizio3';
 import Esercizio3copy from './Esercizio3bis';
 import Esercizio3bis from './Esercizio3bis';
+import Esercizio4_4 from './Esercizio4_4';
+import Esercizio5 from './Esercizio5';
+import Esercizio6 from './Esercizio6';
 
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
       <Esercizio2></Esercizio2>
       <Esercizio3></Esercizio3>
       <Esercizio3bis></Esercizio3bis>
+      <Esercizio4_4></Esercizio4_4>
+      <Esercizio5></Esercizio5>
+      <Esercizio6></Esercizio6>
    
     
     </div>
