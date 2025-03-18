@@ -4,27 +4,21 @@ import { BrowserRouter, Routes, Route, Link,} from "react-router-dom";
 import './App.css';
 import Contatti from './Contatti';
 import Su_di_me from './Su_di_me';
+import Home from './Home';
+import ChiSiamo from './ChiSiamo';
 
 function App() {
   return (
 
 
     <BrowserRouter>
-
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">Chi Siamo</Link></li>
-          <li><Link to="/contact">Contatti</Link></li>
-        </ul>
-      </nav>
-
-      <Routes>
-          <Route path='/about' Component={Su_di_me}></Route>
-          <Route path='/contact' Component={Contatti}></Route>
-      </Routes>
-
-    </BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/about' element={<Su_di_me />} />
+      <Route path='/contact' element={<Contatti />} />
+      <Route path='/chisiamo' element={<ChiSiamo />} />
+    </Routes>
+  </BrowserRouter>
 
 
 

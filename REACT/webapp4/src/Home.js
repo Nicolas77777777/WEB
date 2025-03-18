@@ -1,13 +1,14 @@
 import React from 'react'
 
-const Su_di_me = () => {
+const Home = () => {
   return (
     <div>
         
-       <h1>Su_di_me</h1> 
+        <h1>Home</h1>
+        
         
     </div>
   )
 }
 
-export default Su_di_me
+export default Home
