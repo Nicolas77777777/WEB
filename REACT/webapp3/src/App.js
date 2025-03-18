@@ -29,6 +29,7 @@ function App() {
       <Esercizio5></Esercizio5>
       <Esercizio6></Esercizio6>
       <Esercizio9></Esercizio9>
+      <EsercizioFunzioni></EsercizioFunzioni>
    
     
     </div>

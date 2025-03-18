@@ -3,9 +3,17 @@ import React from 'react'
 const EsercizioFunzioni = () => {
     // Area1 
 
-    let saluto = (nome1, nome2, nome3) => {
 
-        document
+
+    let salutare =""
+    let saluto = () => {
+
+        let nome1 = document.getElementById("nome1").value;
+        console.log(nome1+" ciao")
+
+        let salutare = nome1 + "ciao "
+
+        return salutare
 
 
     }
@@ -18,8 +26,12 @@ const EsercizioFunzioni = () => {
   return (
 
     <div>
-        <h1>EsercizioFunzioni</h1>
-        <input id='nome1'>scrivi il tuo nome </input>
+        <h1>EsercizioFunzioni 5.1</h1>
+        Scrivi il tuo nome<input type="text" id="nome1"/><br/>
+        <button onClick={saluto}>Saluta'</button>
+        <h5>{salutare}</h5>
+
+        
     
     
     
