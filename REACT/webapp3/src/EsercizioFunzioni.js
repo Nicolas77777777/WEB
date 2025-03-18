@@ -20,15 +20,17 @@ const EsercizioFunzioni = () => {
 
     };
 
-    let saluto2 = (a,b) => {
+    let calcola= (a,b) => {
+      let ris= a+b;
+      console.log(ris);
 
-      console.log(setSomma( a+b));
+      setSomma(ris);
 
 
 
   };
 
-  saluto2(3,5);
+  calcola(3,3);
 
 
   
