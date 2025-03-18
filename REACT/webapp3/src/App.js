@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+import EsercizioFunzioni from './EsercizioFunzioni';
 import Esercizio1 from './Esercizio1';
 import Esercizio2 from './Esercizio2';
 import Esercizio3 from './Esercizio3';
