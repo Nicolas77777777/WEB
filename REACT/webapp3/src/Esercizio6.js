@@ -12,6 +12,7 @@ const Esercizio6 = () => {
         break;
       } else {
         setRisultato("prodotto nun trovato");
+        
       }
 
 
