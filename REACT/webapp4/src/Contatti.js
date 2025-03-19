@@ -2,7 +2,11 @@ import React from 'react'
 
 const Contatti = () => {
   return (
-    <div>Contatti</div>
+    <div>
+      <h1>Contatti</h1>
+      
+      
+      </div>
   )
 }
 
