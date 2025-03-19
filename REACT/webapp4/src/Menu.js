@@ -21,8 +21,10 @@ const Menu = () => {
               <Link className="nav-link" to="/about">Su di me </Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="/chisiamo">Chi Siamo </Link>
-              
+                <Link className="nav-link" to="/chisiamo">Chi Siamo </Link>  
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact2">Contatti2 </Link>
             </li>
           </ul>
         </div>

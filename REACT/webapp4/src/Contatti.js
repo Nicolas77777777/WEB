@@ -25,9 +25,10 @@ const Contatti = () => {
   };
 
   return (
+    
     <div className="container">
       <h1>Modulo Contatti</h1>
-
+      
       <form onSubmit={invioDati}>
         <div>
           Nome: <input type="text" value={nome} onChange={(e) => setNome(e.target.value)} /><br/>
